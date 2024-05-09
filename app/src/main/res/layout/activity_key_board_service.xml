@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#36b3b8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textbg"
+            android:padding="10dp"
+            android:text="Keyboard Build Sevice"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Your Specifications"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:padding="10dp"
+            android:maxLines="6"
+            android:background="@drawable/bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/emails"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:background="@drawable/bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"/>
+        <Button
+            android:onClick="submit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#a9d8d3"
+            android:text="SUBMIT"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</LinearLayout>

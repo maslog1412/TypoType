@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36b3b8"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="right|center_vertical">
+        <ImageView
+            android:onClick="menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menus"/>
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:background="@drawable/textbg"
+    android:padding="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="10dp"
+    android:text="Lubing Sevice"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="right|center_vertical">
+        <ImageView
+            android:onClick="lubing"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrow"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@drawable/textbg"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Keyboard Building Sevice"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="right|center_vertical">
+        <ImageView
+            android:onClick="keyboard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrow"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
